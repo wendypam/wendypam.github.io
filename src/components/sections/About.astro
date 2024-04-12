@@ -1,11 +1,13 @@
 ---
 import Section from "../Section.astro"
+import AboutIcon from "../../icons/about_icon.astro";
 
 import { basics } from "@cv"
 const { summary } = basics
 ---
 
 <Section title="Sobre mí">
+  <AboutIcon slot="icon" />
   <p>
     {summary}
   </p>
