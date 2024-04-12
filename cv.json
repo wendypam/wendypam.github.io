@@ -64,8 +64,8 @@
     "url": "https://www.uoc.edu/portal/es/index.html",
     "area": "Tecnologa Superior en Comercio Exterior",
     "studyType": "Bachelor",
-    "startDate": "2019-01-01",
-    "endDate": "2024-01-01",
+    "startDate": "2020-01-01",
+    "endDate": "2023-01-01",
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
@@ -128,10 +128,7 @@
       "Unicorns"
     ]
   }],
-  "references": [{
-    "name": "Jerry Peñarrieta",
-    "reference": "0979875391"
-  },
+  "references": [
   {
     "name": "Lcda. Martha Zambrano",
     "reference": "0988654033"
