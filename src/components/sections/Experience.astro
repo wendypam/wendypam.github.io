@@ -1,10 +1,12 @@
 ---
 import Section from "../Section.astro"
+import ExperienceIcon from "../../icons/experience_icon.astro";
 
 import { work } from "@cv"
 ---
 
 <Section title="Experiencia laboral">
+  <ExperienceIcon slot="icon" />
   <ul>
     {
       work.map(

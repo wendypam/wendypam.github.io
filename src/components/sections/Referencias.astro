@@ -1,10 +1,12 @@
 ---
 import Section from "../Section.astro";
+import ReferenceIcon from "../../icons/reference_icon.astro";
 
 import { references } from "@cv";
 ---
 
 <Section title="Referencias">
+    <ReferenceIcon slot="icon" />
   <ul>
     {
       references.map(({ name, reference }) => {

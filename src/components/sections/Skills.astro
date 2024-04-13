@@ -19,6 +19,8 @@ import Flutter from "@/icons/flutter.astro"
 import Word from "@/icons/Word.astro"
 import Powerpoint from "@/icons/Powerpoint.astro"
 import Excel from "@/icons/Excel.astro"
+import SkillsIcon from "@/icons/skills_icon.astro"
+
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -43,6 +45,7 @@ const SKILLS_ICONS: Record<string, any> = {
 ---
 
 <Section title="Habilidades">
+  <SkillsIcon slot="icon" />
   <ul>
     {
       skills.map(({ name }) => {
